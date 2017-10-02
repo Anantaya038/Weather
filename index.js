@@ -30,6 +30,9 @@ $(function () {
           if (picCheck == "Mist") {
               var picShow = "fog.png";
           }
+          if (picCheck == "Drizzle") {
+              var picShow = "drizzle.png";
+          }
           console.log(data);
             var detail = "<img class = 'font' src='" + picShow + "' alt=''><h2><p id = 'text'><b>"
             + data.weather[0].description + "<h4><b><br>" + "<tr><td><img src='Celsius.png' alt=''></td><td>"
